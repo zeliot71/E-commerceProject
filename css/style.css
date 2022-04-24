@@ -1,5 +1,9 @@
 .container{
     margin-bottom: 100px;
+    border-radius: 10px;
+}
+.carousel{
+    border-radius: 10px;
 }
 .orange-bg{
    background-color: #fceae8;
@@ -40,14 +44,19 @@
 }
 .card{
     border:none;
-    box-shadow: 3px 3px 10px;
+    box-shadow: 3px 0px 10px;
+    border-radius: 10px;
 }
 .card-footer{
     border-top: none;
     background-color: white;
+    border-radius: 10px;
 }
 #subscribe{
     height: 300px;
+}
+#subscribe h6{
+    color: gray;
 }
 footer{
     text-align: center;
